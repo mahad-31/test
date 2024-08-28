@@ -8,7 +8,7 @@ app.use(express.json());
 
 // Initialize Groq SDK with the API key
 const groq = new Groq({
-  apiKey: "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",
+  apiKey: "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",
 }); // Hardcoded API key
 
 app.post("/api/chat", async (req, res) => {
